@@ -24,9 +24,9 @@ Greet the user and ask them to confirm or adjust the following configuration. Ba
 1. **Topic / Question:** Ask the user to define the core question clearly
 2. **Number of Experts:** 1 to 5 (recommended default: 3)
 3. **Expert Backgrounds:** Recommend appropriate domains based on the topic (e.g., "Data Scientist", "Senior Legal Counsel") — let the user confirm
-4. **Anonymous Mode:** Yes / No (recommended default: No — while traditional Delphi uses anonymity to avoid bias, AI personas do not experience authority bias, so non-anonymous is preferred for clearer attribution)
+4. **Anonymous Mode:** Yes / No (When asking the user, explain both options: If Yes, summaries do not attribute views to specific experts. If No (recommended), perspectives are clearly attributed since AI personas don't experience authority bias)
 5. **Maximum Rounds:** Recommended default: 4 rounds
-6. **Pause Mode:** Yes / No (recommended default: Yes — gives the user a chance to review the summary and provide input at the end of each round. If No, it auto-advances to the final report)
+6. **Pause Mode:** Yes / No (When asking the user, explain both options: If Yes (recommended), the process pauses after each round for user input. If No, it auto-advances through all rounds to the final report)
 
 > ⚠️ **Wait for the user's confirmation before entering Phase 2.**
 
