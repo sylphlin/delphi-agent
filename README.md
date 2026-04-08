@@ -4,7 +4,7 @@ The **Delphi Agent** is an AI agent skill that uses the Delphi Technique to solv
 
 ## 🎯 Core Value & Philosophy
 
-Standard AI interactions often suffer from "authority bias" or simplistic single-perspective answers. For highly complex, ambiguous, or contested problems, you need more than one viewpoint. The Delphi Agent solves this by assembling a virtual panel of subject matter experts who debate, refine, and eventually converge on a well-reasoned conclusion across multiple rounds avoiding groupthink.
+Standard AI interactions often provide simplistic, single-perspective answers. For highly complex, ambiguous, or contested problems, a single viewpoint is rarely enough. The Delphi Agent solves this by assembling a virtual panel of subject matter experts who analyze the problem from different angles, debate trade-offs, and eventually converge on a well-reasoned conclusion across multiple rounds, ensuring a comprehensive evaluation.
 
 ## 🚀 Use Cases & Scenarios
 
@@ -18,8 +18,8 @@ When facing a major pivot, architecture choice, or business strategy where diffe
 When a challenge requires synthesis across domains that rarely speak the same language. 
 * **Example:** *"Design a data privacy policy for our new AI tool. Let's have a Legal Expert, a Data Ethicist, and a Machine Learning Engineer debate the tradeoffs."*
 
-### 3. Overcoming Groupthink & Stress-Testing
-When your team is leaning toward an idea, but you want to rigorously stress-test it against alternative perspectives before committing resources.
+### 3. Blind Spot Detection & Stress-Testing
+When your team is leaning toward an idea, but you want to rigorously stress-test it against alternative perspectives to uncover hidden blind spots before committing resources.
 * **Example:** *"My team wants to migrate our entire database to MongoDB. Play the role of three skeptical database experts to find the flaws in this plan."*
 
 ### 4. Forecasting & Risk Assessment
