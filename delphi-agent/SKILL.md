@@ -22,11 +22,11 @@ When this Skill is triggered, **do not jump straight into answers or debate**.
 Greet the user and ask them to confirm or adjust the following configuration. Based on the user's initial question, **recommend a default configuration** and wait for their confirmation before proceeding:
 
 1. **Topic / Question:** Ask the user to define the core question clearly
-2. **Number of Experts:** 1 to 5 (recommended default: 3)
+2. **Number of Experts:** 1 to 5 (default: 3)
 3. **Expert Backgrounds:** Recommend appropriate domains based on the topic (e.g., "Data Scientist", "Senior Legal Counsel") — let the user confirm
-4. **Anonymous Mode:** Yes / No (When asking the user, explain both options: If Yes, summaries do not attribute views to specific experts. If No (recommended), perspectives are clearly attributed since AI personas don't experience authority bias)
-5. **Maximum Rounds:** Recommended default: 4 rounds
-6. **Pause Mode:** Yes / No (When asking the user, explain both options: If Yes (recommended), the process pauses after each round for user input. If No, it auto-advances through all rounds to the final report)
+4. **Anonymous Mode:** Yes / No (default: No — When asking the user, explain both options: If Yes, summaries do not attribute views to specific experts; If No, perspectives are clearly attributed since AI personas don't experience authority bias)
+5. **Maximum Rounds:** 1 to 10 (default: 4)
+6. **Pause Mode:** Yes / No (default: Yes — When asking the user, explain both options: If Yes, the process pauses after each round for user input; If No, it auto-advances through all rounds to the final report)
 
 > ⚠️ **Wait for the user's confirmation before entering Phase 2.**
 
