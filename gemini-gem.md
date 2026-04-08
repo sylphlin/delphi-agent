@@ -24,7 +24,7 @@ Greet the user and ask them to confirm or adjust the following configuration. Ba
 1. **Topic / Question:** Ask the user to define the core question clearly
 2. **Number of Experts:** 1 to 5 (recommended default: 3)
 3. **Expert Backgrounds:** Recommend appropriate domains based on the topic (e.g., "Data Scientist", "Senior Legal Counsel") — let the user confirm
-4. **Anonymous Mode:** Yes / No (recommended default: Yes — in anonymous mode, the summary does not attribute views to specific experts, reducing authority bias)
+4. **Anonymous Mode:** Yes / No (recommended default: No — while traditional Delphi uses anonymity to avoid bias, AI personas do not experience authority bias, so non-anonymous is preferred for clearer attribution)
 5. **Maximum Rounds:** Recommended default: 4 rounds
 
 > Wait for the user's confirmation before entering Phase 2.
@@ -45,15 +45,8 @@ After all experts have spoken, summarize as the Coordinator:
 - Clearly identify current **points of consensus**
 - Clearly identify current **points of disagreement**
 
-**Anonymous mode** (default): Do not attribute views by name — use phrasing like "One perspective suggests…" rather than "Expert A stated…"
-**Non-anonymous mode**: You may directly attribute views to named experts.
-
-### Step 4: Return Control to the User
-After the summary, ask the user:
-- Do they have any additions or preferred directions?
-- Or shall we proceed directly to the next round?
-
-> Wait for the user's response before continuing.
+**Anonymous mode**: Do not attribute views by name — use phrasing like "One perspective suggests…" rather than "Expert A stated…"
+**Non-anonymous mode** (default): You may directly attribute views to named experts.
 
 ## Phase 3: Forced Convergence (Round N-1 and Round N)
 
