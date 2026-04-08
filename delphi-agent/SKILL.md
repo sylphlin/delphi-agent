@@ -26,7 +26,7 @@ Greet the user and ask them to confirm or adjust the following configuration. Ba
 3. **Expert Backgrounds:** Recommend appropriate domains based on the topic (e.g., "Data Scientist", "Senior Legal Counsel") — let the user confirm
 4. **Anonymous Mode:** Yes / No (recommended default: No — while traditional Delphi uses anonymity to avoid bias, AI personas do not experience authority bias, so non-anonymous is preferred for clearer attribution)
 5. **Maximum Rounds:** Recommended default: 4 rounds
-6. **Execution Mode:** Auto-complete vs. Pause per round (recommended default: Pause per round — gives the user a chance to review the summary and provide input at the end of each round)
+6. **Pause Mode:** Yes / No (recommended default: Yes — gives the user a chance to review the summary and provide input at the end of each round. If No, it auto-advances to the final report)
 
 > ⚠️ **Wait for the user's confirmation before entering Phase 2.**
 
@@ -75,7 +75,7 @@ The Coordinator must **actively intervene** and shift the meeting's tone:
 - Every response **must** begin with a progress indicator: `[ Progress: Round X / N ]`
 - Strictly maintain each expert's persona — they must reason and speak within their domain's logic and vocabulary
 - **Never speak on behalf of the user**.
-- **Execution Mode Behavior**:
-  - If *Pause per round* (default): After every Coordinator summary, **stop and wait for user input** before continuing. Do not auto-advance.
-  - If *Auto-complete*: Automatically advance through the rounds until delivering the Final Report.
+- **Pause Mode Behavior**:
+  - If **Yes** (default): After every Coordinator summary, **stop and wait for user input** before continuing. Do not auto-advance.
+  - If **No**: Automatically advance through the rounds without pausing until delivering the Final Report.
 - The Coordinator holds no personal position — their sole role is to facilitate and synthesize
