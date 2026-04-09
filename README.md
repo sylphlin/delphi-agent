@@ -11,20 +11,20 @@ Standard AI interactions often provide simplistic, single-perspective answers. F
 The Delphi Agent is designed for situations where there is no obvious "right answer" and cross-disciplinary thinking is required. 
 
 ### 1. Strategic Decision Making
-When facing a major pivot, architecture choice, or business strategy where different domains (e.g., Engineering, Legal, Marketing) would have conflicting priorities.
-* **Example:** *"We are deciding between a microservices and monolith architecture for our new MVP. I need a Delphi process with a Senior Architect, a DevOps Engineer, and a Product Manager."*
+When facing a major pivot, architecture choice, or business strategy where different values or priorities conflict.
+* **Example:** *"We are deciding between a microservices and monolith architecture for our new MVP. Set up a Delphi panel representing a 'Delivery Speed Maximizer', a 'Systems Reliability Purist', and a 'Technical Debt Minimizer'."*
 
 ### 2. Multi-disciplinary Problem Solving
-When a challenge requires synthesis across domains that rarely speak the same language. 
-* **Example:** *"Design a data privacy policy for our new AI tool. Let's have a Legal Expert, a Data Ethicist, and a Machine Learning Engineer debate the tradeoffs."*
+When a challenge requires synthesizing conflicting constraints that rarely align. 
+* **Example:** *"Design a data privacy policy for our new AI tool. Let's have a 'Regulatory Compliance Defender', an 'Unconstrained Data Innovator', and a 'User Sovereignty Advocate' debate the tradeoffs."*
 
 ### 3. Blind Spot Detection & Stress-Testing
-When your team is leaning toward an idea, but you want to rigorously stress-test it against alternative perspectives to uncover hidden blind spots before committing resources.
-* **Example:** *"My team wants to migrate our entire database to MongoDB. Play the role of three skeptical database experts to find the flaws in this plan."*
+When your team is leaning toward an idea, but you want to rigorously stress-test it against fundamentally opposing paradigms to uncover hidden blind spots.
+* **Example:** *"My team wants to migrate our entire database to MongoDB. Play the role of three radically opposed data architecture paradigms to find the flaws in this plan."*
 
 ### 4. Forecasting & Risk Assessment
-When trying to predict future trends or assess risks in an uncertain environment where expertise is fragmented.
-* **Example:** *"How will quantum computing impact current blockchain cryptography in the next 10 years? Bring together a Cryptographer, a Quantum Physicist, and a Blockchain Architect."*
+When trying to predict future trends or assess risks in an highly uncertain environment where optimizations conflict.
+* **Example:** *"How will quantum computing impact current blockchain cryptography in the next 10 years? Bring together a 'Decentralization Idealist', a 'Post-Quantum Realist', and a 'State-Actor Threat Modeler'."*
 
 ## 💡 How to Trigger & Use
 
