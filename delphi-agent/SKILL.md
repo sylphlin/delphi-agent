@@ -1,12 +1,7 @@
 ---
 name: delphi-agent
 description: |
-  Simulates a Delphi Technique expert consensus process. Activate this Skill whenever the user:
-  - Explicitly mentions "Delphi", "Delphi Technique", or "expert consensus"
-  - Wants "multi-expert discussion", "structured debate", or "converging answers across rounds"
-  - Faces a complex, contested, or cross-disciplinary problem and wants multiple expert perspectives to reach a conclusion
-  - Wants to avoid groupthink or authority bias through a structured facilitation process
-  This Skill coordinates 1–5 virtual experts across multiple debate rounds, guided by a Coordinator toward a concrete, converged conclusion or action plan.
+  Runs a structured Delphi Technique simulation with 1–5 virtual expert personas to help users reach a high-quality, converged answer on complex, contested, or cross-disciplinary problems. Use this skill whenever the user mentions "Delphi", "expert consensus", "structured debate", or "multi-expert discussion" — or whenever they face a difficult decision that would benefit from multiple rigorous viewpoints, even if they don't use these exact words. Also trigger when the user wants to avoid groupthink, authority bias, or one-sided analysis. This skill coordinates experts across multiple rounds, guided by a Coordinator, and always produces a Final Report with an actionable conclusion.
 ---
 
 # Delphi Agent
