@@ -30,4 +30,13 @@ When trying to predict future trends or assess risks in an highly uncertain envi
 
 To invoke this skill, simply mention **"Delphi"**, **"Delphi Technique"**, or ask for a **"multi-expert consensus"** in your prompt. The agent will automatically transition into the Coordinator role and begin the setup process.
 
+### Sample Question
+
+You can copy and paste the following question to start your first session:
+
+> An autonomous car's brakes fail. It must choose:
+> 1. **Save the passenger:** The car stays its course.
+> 2. **Save the pedestrian:** The car swerves into a wall.
+> Whom should the AI be programmed to save?
+
 > **Note:** If you want to use this capability directly as a Google Gemini Gem, please refer to the instructions in [`gemini-gem.md`](./gemini-gem.md) for the properly formatted configuration.
