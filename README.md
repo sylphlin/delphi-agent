@@ -2,9 +2,9 @@
 
 The **Delphi Agent** is an AI agent skill that uses the Delphi Technique to solve complex problems through structured, multi-round expert consensus.
 
-## 🎯 Core Value & Philosophy
+## 🎯 Goal & Philosophy
 
-Standard AI interactions often provide simplistic, single-perspective answers. For highly complex, ambiguous, or contested problems, a single viewpoint is rarely enough. The Delphi Agent solves this by assembling a virtual panel of subject matter experts who analyze the problem from different angles, debate trade-offs, and eventually converge on a well-reasoned conclusion across multiple rounds, ensuring a comprehensive evaluation.
+We use a single chat window to simulate the Delphi method, allowing users to easily and conveniently use it in their own environment through Gemini Gems or skill import without complex multi-agents deployment. The agent creates experts with different stances who argue, gradually build consensus, and finally converge to provide a unified, well-reasoned final recommendation.
 
 ## 🚀 Use Cases & Scenarios
 
