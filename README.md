@@ -26,17 +26,24 @@ When your team is leaning toward an idea, but you want to rigorously stress-test
 When trying to predict future trends or assess risks in an highly uncertain environment where optimizations conflict.
 * **Example:** *"How will quantum computing impact current blockchain cryptography in the next 10 years? Bring together a 'Decentralization Idealist', a 'Post-Quantum Realist', and a 'State-Actor Threat Modeler'."*
 
-## 💡 How to Trigger & Use
+## 💡 How to Use & Trigger
+
+### 1. How to Use
+
+You can use the Delphi Agent in two ways:
+* **Install as a Skill:** You can install this as an agent skill by referencing the [`SKILL.md`](./delphi-agent/SKILL.md) file.
+* **Use as a Gemini Gem:** If you want to use this capability directly as a Google Gemini Gem, please refer to the instructions in [`gemini-gem.md`](./gemini-gem.md) for the properly formatted configuration.
+
+### 2. How to Trigger
 
 To invoke this skill, simply mention **"Delphi"**, **"Delphi Technique"**, or ask for a **"multi-expert consensus"** in your prompt. The agent will automatically transition into the Coordinator role and begin the setup process.
 
-### Sample Question
+## Sample Question
 
 You can copy and paste the following question to start your first session:
 
 > An autonomous car's brakes fail. It must choose:
 > 1. **Save the passenger:** The car stays its course.
 > 2. **Save the pedestrian:** The car swerves into a wall.
+>
 > Whom should the AI be programmed to save?
-
-> **Note:** If you want to use this capability directly as a Google Gemini Gem, please refer to the instructions in [`gemini-gem.md`](./gemini-gem.md) for the properly formatted configuration.
