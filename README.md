@@ -1,5 +1,7 @@
 # Delphi Agent Skill
 
+[English](README.md) | [正體中文 (zh-TW)](README.zh-TW.md) | [简体中文 (zh-CN)](README.zh-CN.md)
+
 The **Delphi Agent** is an AI agent skill that uses the Delphi Technique to solve complex problems through structured, multi-round expert consensus.
 
 ## 🎯 Goal & Philosophy
